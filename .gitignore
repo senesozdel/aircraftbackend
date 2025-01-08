@@ -1,0 +1,45 @@
+# Python dosyalarý
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Ortam dosyalarý
+.env
+
+# Docker
+*.pid
+*.tar
+*.log
+*.bak
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Sanal ortam (virtual environment)
+venv/
+env/
+ENV/
+
+# Node.js (Eðer frontend kullanýyorsanýz)
+node_modules/
+npm-debug.log*
+
+# IDE ve editör dosyalarý
+.vscode/
+.vs/
+.idea/
+*.swp
+
+# Git tarafýndan oluþturulan dosyalar
+*.orig
+
+# Diðer
+.DS_Store
+Thumbs.db

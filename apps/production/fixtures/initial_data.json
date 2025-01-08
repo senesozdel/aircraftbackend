@@ -1,0 +1,257 @@
+[
+    {
+      "model": "production.parttype",
+      "pk": 1,
+      "fields": {
+        "name": "Kanat",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.parttype",
+      "pk": 2,
+      "fields": {
+        "name": "Gövde",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.parttype",
+      "pk": 3,
+      "fields": {
+        "name": "Kuyruk",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.parttype",
+      "pk": 4,
+      "fields": {
+        "name": "Aviyonik",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.aircraft",
+      "pk": 1,
+      "fields": {
+        "name": "TB2",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.aircraft",
+      "pk": 2,
+      "fields": {
+        "name": "TB3",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.aircraft",
+      "pk": 3,
+      "fields": {
+        "name": "AKINCI",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.aircraft",
+      "pk": 4,
+      "fields": {
+        "name": "KIZILELMA",
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.team",
+      "pk": 1,
+      "fields": {
+        "name": "Kanat Takımı",
+        "responsible_part": 1,
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.team",
+      "pk": 2,
+      "fields": {
+        "name": "Gövde Takımı",
+        "responsible_part": 2,
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.team",
+      "pk": 3,
+      "fields": {
+        "name": "Kuyruk Takımı",
+        "responsible_part": 3,
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.team",
+      "pk": 4,
+      "fields": {
+        "name": "Aviyonik Takımı",
+        "responsible_part": 4,
+        "is_deleted": false
+      }
+    },
+    {
+      "model": "production.team",
+      "pk": 5,
+      "fields": {
+        "name": "Montaj Takımı",
+        "responsible_part": null,
+        "is_deleted": false
+      }
+    },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 1,
+        "fields": {
+          "aircraft": 1,
+          "part_type": 1,
+          "required_quantity": 2
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 2,
+        "fields": {
+          "aircraft": 2,
+          "part_type": 1,
+          "required_quantity": 2
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 3,
+        "fields": {
+          "aircraft": 3,
+          "part_type": 1,
+          "required_quantity": 2
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 4,
+        "fields": {
+          "aircraft": 4,
+          "part_type": 1,
+          "required_quantity": 2
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 5,
+        "fields": {
+          "aircraft": 1,
+          "part_type": 2,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 6,
+        "fields": {
+          "aircraft": 2,
+          "part_type": 2,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 7,
+        "fields": {
+          "aircraft": 3,
+          "part_type": 2,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 8,
+        "fields": {
+          "aircraft": 4,
+          "part_type": 2,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 9,
+        "fields": {
+          "aircraft": 1,
+          "part_type": 3,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 10,
+        "fields": {
+          "aircraft": 2,
+          "part_type": 3,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 11,
+        "fields": {
+          "aircraft": 3,
+          "part_type": 3,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 12,
+        "fields": {
+          "aircraft": 4,
+          "part_type": 3,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 13,
+        "fields": {
+          "aircraft": 1,
+          "part_type": 4,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 14,
+        "fields": {
+          "aircraft": 2,
+          "part_type": 4,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 15,
+        "fields": {
+          "aircraft": 3,
+          "part_type": 4,
+          "required_quantity": 1
+        }
+      },
+      {
+        "model": "production.aircraftpartrequirement",
+        "pk": 16,
+        "fields": {
+          "aircraft": 4,
+          "part_type": 4,
+          "required_quantity": 1
+        }
+      }
+      
+  ]
+  

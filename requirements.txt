@@ -1,0 +1,7 @@
+Django>=3.2
+djangorestframework
+psycopg2-binary
+drf-yasg
+djangorestframework-simplejwt
+django-datatables-view==1.20.0
+django-cors-headers==4.3.1
