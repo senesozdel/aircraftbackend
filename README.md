@@ -1,3 +1,6 @@
+# Frontend Uygulamasına Gitmek için : https://github.com/senesozdel/aircraftui
+
+
 1) git clone ile projeyi klonlayınız.
 2) proje dizininde .env dosyasında gerekli bilgileri giriniz. ( db_name, username, password gibi) settings.py dosyasında nasıl kullanıldığını görebilirsiniz.
 3) docker-compose build ile docker imajını oluşturunuz.
