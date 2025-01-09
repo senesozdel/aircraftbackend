@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Veritabanının hazır olmasını bekle
+# Veritabanının hazırlanmasını  bekle
 echo "Veritabanının hazır olması bekleniyor..."
 while ! nc -z db 5432; do
   sleep 0.1
